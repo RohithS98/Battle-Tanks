@@ -1,0 +1,38 @@
+body,html{
+		background: #222930;
+		color:#4EB1BA;
+		font-family: 'Gloria Hallelujah';
+		width: 99vw;
+	
+}
+
+@keyframes shrink {
+  0% {
+    font-size: .8em;
+  }
+  100% {
+    font-size: 1.3em;
+  }
+}
+
+#heart{
+	animation: shrink 1s infinite alternate;
+}
+
+canvas{
+	display: block;
+	background: #E9E9E9;
+	margin: 5px auto;
+	border-radius: 10px;
+	/* min-width: 1200;
+	min-height: 560; */
+	width: 100%;
+	max-width: 1200px;
+	/* min-width: 500px; */
+	/* background: url("../assets/img/bg.png"); */
+	background-size: cover;
+}
+
+canvas:focus{
+	border:none;
+}
