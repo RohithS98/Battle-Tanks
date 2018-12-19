@@ -14,13 +14,13 @@
             <h1>BATTLE TANKS</h1>
             <div id="menu">
                 <ul>
-                    <li onclick="select(this)" id="newbtn" tabindex="0">
+                    <li onclick="select(this)" id="newbtn" onkeypress="this.click()" tabindex="0">
                         <span> NewGame </span>
                     </li>
-                    <!-- <li onclick="select(this)" id="hlpbtn" tabindex="0">
+                    <li onclick="select(this)" id="hlpbtn" onkeypress="this.click()" tabindex="0">
                         <span> Help </span>
-                    </li> -->
-                    <li onclick="select(this)" id="btn" tabindex="0">
+                    </li>
+                    <li onclick="select(this)" id="btn" onkeypress="this.click()" tabindex="0">
                         <span> Exit </span>
                     </li>
                 </ul>
@@ -51,13 +51,6 @@ $(document).keydown(
           else{
             $("li:first-child").focus();
           }
-        }
-    }
-);
-$(document).keypress(
-    function(e){
-        if (e.keyCode == 13) {
-            $('li').click();
         }
     }
 );
