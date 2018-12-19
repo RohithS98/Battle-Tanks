@@ -8,7 +8,7 @@ Fire weapons against your opponent to gain points and increase your score. Direc
 ## INSTRUCTIONS:
 While playing on laptop or PC's:
 
-Hit the SpaceBar to fire! Left and Right arrows will move the tank. Up and Down arrows will rotate the gun. Press 'A' and 'D' to adjust the power. Press 'W' to choose among 'Small', 'Medium' and 'Large' weapons. Press 'P' to pause the game. Press 'R' to restart the game.
+Hit the SpaceBar to fire! Left and Right arrows will move the tank. Up and Down arrows will rotate the gun. Press 'A' and 'D' to adjust the power. Press 'W' to choose among 'Small', 'Medium' and 'Large' weapons. Press 'P' to pause the game. Press 'R' to restart the game. Press 'Q' to go back to the main menu.
 
 ## INSTALLATION:
 
