@@ -1,3 +1,5 @@
+//Credits to shakeabi for part of the source code
+
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 
